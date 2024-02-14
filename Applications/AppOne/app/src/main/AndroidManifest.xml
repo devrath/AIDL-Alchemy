@@ -16,7 +16,7 @@
         <service android:name=".MySimpService"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.istudio.aidl_app_one.MySimpService" />
+                <action android:name="com.istudio.mylib.MySimpService" />
             </intent-filter>
         </service>
 
