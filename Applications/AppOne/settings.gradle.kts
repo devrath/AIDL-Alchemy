@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "AIDL-App-One"
 include(":app")
 include(":mylib")
+include(":clientapp")
