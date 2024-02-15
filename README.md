@@ -37,8 +37,29 @@
 * `Generic maps`, such as `Map<String,Integer>` are not supported.
 
 ## `How communication occurs in the sample`
-
-
+**`1`** _**Server application**_
+* In the server application, We shall create an `aidl` file interface with methods exposed where on building the interface the code is generated behind the scenes by Android that takes care of marshaling the data that is used for communication.
+* Server defines a service class that extends an android `service` class and we `Override` the `onBind` method.
+* In the usual case of normally running the background service, We would return the `IBinder` as `null` but in our case here we will write an `IBinder` implementation.
+* The `IBinder` implementation will have all the abstract methods overridden and defined where we define the server implementations.
+  
+**`2`** _**Client application**_
+* In the client also define the same `aidl` file as a server(You can even copy-paste it).
+* Now important to note is the package hierarchy must be the same here as the server else it won't work.
+* Build the project so that the Android generates code behind the scenes.
+* Define a service connection implementation
+  * Here there are two methods `onServiceConnected` and `onServiceDisconnected` methods overridden.
+  * At `onServiceConnected` method we get the reference to `interface reference` which requires `IBinder` as input to it and the reference is kept globally.
+  * Using this reference we can access and communicate with the server.
+   
+**`3`** _**How client initiates communication with server**_
+* We prepare an intent with inputs
+  * It has an `Intent filter name`
+  * The `package name` of the server
+  * The `component name` that contains the service name in server.
+* We call the `bindService` that has `intent`,`service connection, and a `flag` to initiate the connection.
+* The earlier kept global reference is used to call the interface methods which inturn communicates with server and gets the result from server
+  
 
 ## `How to run sample application` 👣
 * There are two applications in the repository. One is for `server` and another for `client`
