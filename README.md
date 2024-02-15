@@ -5,7 +5,7 @@
 🗄️ 𝚃𝚑𝚒𝚜 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚢 𝚐𝚞𝚒𝚍𝚎𝚜 𝚞𝚝𝚒𝚕𝚒𝚣𝚒𝚗𝚐 𝙰𝚗𝚍𝚛𝚘𝚒𝚍 𝙸𝚗𝚝𝚎𝚛𝚏𝚊𝚌𝚎 𝙳𝚎𝚏𝚒𝚗𝚒𝚝𝚒𝚘𝚗 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎 (𝙰𝙸𝙳𝙻) 𝚊𝚗𝚍 𝚒𝚗𝚌𝚕𝚞𝚍𝚎𝚜 𝚌𝚘𝚖𝚙𝚛𝚎𝚑𝚎𝚗𝚜𝚒𝚟𝚎 𝚌𝚘𝚗𝚝𝚎𝚗𝚝 𝚌𝚘𝚟𝚎𝚛𝚒𝚗𝚐 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚊𝚗𝚍 𝚝𝚘𝚙𝚒𝚌𝚜 𝚛𝚎𝚕𝚊𝚝𝚎𝚍 𝚝𝚘 𝙰𝙸𝙳𝙻 𝚒𝚗 𝙰𝚗𝚍𝚛𝚘𝚒𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝.
 
 ## `𝙲𝚘𝚗𝚝𝚎𝚗𝚝𝚜`
-* [`About AIDL`]([https://github.com/devrath/AIDL-Alchemy/wiki/What-is-AIDL](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#about-aidl))
+* [`About AIDL`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#about-aidl)
 * [`How to run the sample application`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#how-to-run-sample-application-)
 
 
