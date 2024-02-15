@@ -8,11 +8,20 @@
   
 | **`𝙲𝚘𝚗𝚝𝚎𝚗𝚝𝚜`** |
 | ---------- |
+| [`Demo`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#about-aidl) |
 | [`About AIDL`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#about-aidl) |
 | [`How communication occurs in the sample`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#how-communication-occurs-in-the-sample) |
 | [`How to run the sample application`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#how-to-run-sample-application-) |
 
 </div>
+
+## `Output`
+<div align="center">
+  
+https://github.com/devrath/AIDL-Alchemy/assets/1456191/7577637c-0782-4b2e-bf55-4ee2a3530e2c
+
+</div>
+
 
 
 ## `About AIDL`
@@ -51,14 +60,21 @@
   * Here there are two methods `onServiceConnected` and `onServiceDisconnected` methods overridden.
   * At `onServiceConnected` method we get the reference to `interface reference` which requires `IBinder` as input to it and the reference is kept globally.
   * Using this reference we can access and communicate with the server.
+
+**`3`** _**Where we define the aidl files**_
+
+| `Server` | `Client` |
+| -------- | -------- |
+| <img width="354" alt="Screenshot 2024-02-15 at 11 32 52 PM" src="https://github.com/devrath/AIDL-Alchemy/assets/1456191/3b46ea78-3637-454e-9199-64c11819e0a0"> | <img width="354" alt="Screenshot 2024-02-15 at 11 33 35 PM" src="https://github.com/devrath/AIDL-Alchemy/assets/1456191/80cbc402-be3f-4407-812c-4e674108f9a9"> |
+
    
-**`3`** _**How client initiates communication with server**_
+**`4`** _**How client initiates communication with server**_
 * We prepare an intent with inputs
   * It has an `Intent filter name`
   * The `package name` of the server
-  * The `component name` that contains the service name in server.
-* We call the `bindService` that has `intent`,`service connection, and a `flag` to initiate the connection.
-* The earlier kept global reference is used to call the interface methods which inturn communicates with server and gets the result from server
+  * The `component name` that contains the service name in the server.
+* We call the `bindService` that has `intent`,`service connection`, and a `flag` to initiate the connection.
+* The earlier kept global reference is used to call the interface methods which in turn communicates with the server and gets the result from the server.
   
 
 ## `How to run sample application` 👣
