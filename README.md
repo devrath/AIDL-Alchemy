@@ -6,7 +6,7 @@
 
 ## `𝙲𝚘𝚗𝚝𝚎𝚗𝚝𝚜`
 * [`What is AIDL`](https://github.com/devrath/AIDL-Alchemy/wiki/What-is-AIDL)
-* [`How to run the sample application`]()
+* [`How to run the sample application`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#%F0%9D%99%B7%F0%9D%9A%98%F0%9D%9A%A0-%F0%9D%9A%9D%F0%9D%9A%98-%F0%9D%9A%9B%F0%9D%9A%9E%F0%9D%9A%97-%F0%9D%9A%9D%F0%9D%9A%91%F0%9D%9A%8E-%F0%9D%9A%9C%F0%9D%9A%8A%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%95%F0%9D%9A%8E-%F0%9D%9A%8A%F0%9D%9A%99%F0%9D%9A%99%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%8C%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-)
 
 
 ## **`𝙷𝚘𝚠 𝚝𝚘 𝚛𝚞𝚗 𝚝𝚑𝚎 𝚜𝚊𝚖𝚙𝚕𝚎 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗`** 👣
