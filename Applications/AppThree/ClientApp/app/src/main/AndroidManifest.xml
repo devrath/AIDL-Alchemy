@@ -23,4 +23,6 @@
         </activity>
     </application>
 
+    <queries> <package android:name="com.istudio.server"/> </queries>
+
 </manifest>

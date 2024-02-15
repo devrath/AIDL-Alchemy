@@ -26,7 +26,7 @@ public class AIDLColorService extends Service {
         @Override
         public int getColor() throws RemoteException {
             Random rnd = new Random();
-            int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+            int color = Color.argb(252, rnd.nextInt(253), rnd.nextInt(216), rnd.nextInt(256));
             Log.d(TAG, "getColor: "+ color);
             return color;
         }
