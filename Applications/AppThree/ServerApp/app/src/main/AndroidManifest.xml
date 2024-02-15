@@ -12,14 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Server"
         tools:targetApi="31" >
+
+        <!-- Define the SERVICE tag in the server -->
         <service
-            android:name=".AIDLColorService"
+            android:name=".AppServerService"
             android:enabled="true"
             android:exported="true">
-            <!-- We need to add Intent Filter so that we can call the intent from separate application -->
+            <!-- We need to add Intent Filter so that we can call via the intent from separate application(Client) -->
             <intent-filter>
-                <action android:name="AIDLColorService" />
+                <action android:name="AppServerServiceIntent" />
             </intent-filter>
         </service>
+
     </application>
 </manifest>
