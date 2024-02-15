@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
     private static final String TAG ="MainActivity";
-    ServerInterface iADILColorService;
+    ServerInterface serviceInterface;
 
 
     @Override
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
             // We take concrete implementation of binder and pass to interface and return interface.
-            iADILColorService = ServerInterface.Stub.asInterface(iBinder);
+            serviceInterface = ServerInterface.Stub.asInterface(iBinder);
             // By here the remote service is connected
             Log.d(TAG, "Remote service is connected");
         }
@@ -95,9 +95,64 @@ public class MainActivity extends AppCompatActivity {
         binding.getIntegerButtonId.setOnClickListener(view -> {
             try {
                 // Here the client will get the data from the server
-                String result = String.valueOf(iADILColorService.getInteger());
+                String result = String.valueOf(serviceInterface.getIntegerData());
                 Log.d(TAG,result);
-                binding.displayIntegerTextId.setText(result);
+                binding.getIntegerButtonId.setText(result);
+            } catch (RemoteException e) {
+                Log.d(TAG,e.getMessage());
+            }
+        });
+
+        binding.getLongButtonId.setOnClickListener(view -> {
+            try {
+                // Here the client will get the data from the server
+                String result = String.valueOf(serviceInterface.getLongData());
+                Log.d(TAG,result);
+                binding.getLongButtonId.setText(result);
+            } catch (RemoteException e) {
+                Log.d(TAG,e.getMessage());
+            }
+        });
+
+        binding.getCharButtonId.setOnClickListener(view -> {
+            try {
+                // Here the client will get the data from the server
+                String result = String.valueOf(serviceInterface.getCharacterData());
+                Log.d(TAG,result);
+                binding.getCharButtonId.setText(result);
+            } catch (RemoteException e) {
+                Log.d(TAG,e.getMessage());
+            }
+        });
+
+        binding.getFloatButtonId.setOnClickListener(view -> {
+            try {
+                // Here the client will get the data from the server
+                String result = String.valueOf(serviceInterface.getFloatData());
+                Log.d(TAG,result);
+                binding.getFloatButtonId.setText(result);
+            } catch (RemoteException e) {
+                Log.d(TAG,e.getMessage());
+            }
+        });
+
+        binding.getDoubleButtonId.setOnClickListener(view -> {
+            try {
+                // Here the client will get the data from the server
+                String result = String.valueOf(serviceInterface.getFloatData());
+                Log.d(TAG,result);
+                binding.getDoubleButtonId.setText(result);
+            } catch (RemoteException e) {
+                Log.d(TAG,e.getMessage());
+            }
+        });
+
+        binding.getStringButtonId.setOnClickListener(view -> {
+            try {
+                // Here the client will get the data from the server
+                String result = String.valueOf(serviceInterface.getStringData());
+                Log.d(TAG,result);
+                binding.getStringButtonId.setText(result);
             } catch (RemoteException e) {
                 Log.d(TAG,e.getMessage());
             }

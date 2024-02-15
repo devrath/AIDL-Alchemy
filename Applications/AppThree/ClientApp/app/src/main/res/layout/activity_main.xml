@@ -8,31 +8,55 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-
-    <LinearLayout
-        android:id="@+id/integerRowId"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Click buttons \nto get data from server"/>
 
-        <Button
-            android:id="@+id/getIntegerButtonId"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:layout_marginLeft="10dp"
-            android:text="Get Integer" />
+    <Button
+        android:id="@+id/getIntegerButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Get Integer" />
 
-        <TextView
-            android:id="@+id/displayIntegerTextId"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="14sp"
-            tools:text="123"/>
+    <Button
+        android:id="@+id/getLongButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Get Long" />
 
-    </LinearLayout>
+    <Button
+        android:id="@+id/getCharButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Get Char" />
 
+    <Button
+        android:id="@+id/getFloatButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Get Float" />
+
+    <Button
+        android:id="@+id/getDoubleButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Get Double" />
+
+    <Button
+        android:id="@+id/getStringButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Get String" />
 
 </LinearLayout>
