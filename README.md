@@ -6,6 +6,7 @@
 
 ## `𝙲𝚘𝚗𝚝𝚎𝚗𝚝𝚜`
 * [`What is AIDL`](https://github.com/devrath/AIDL-Alchemy/wiki/What-is-AIDL)
+* [`How to run the sample application`]()
 
 
 ## **`𝙷𝚘𝚠 𝚝𝚘 𝚛𝚞𝚗 𝚝𝚑𝚎 𝚜𝚊𝚖𝚙𝚕𝚎 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗`** 👣
