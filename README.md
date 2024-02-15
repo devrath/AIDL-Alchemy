@@ -5,7 +5,7 @@
 🗄️ 𝚃𝚑𝚒𝚜 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚢 𝚐𝚞𝚒𝚍𝚎𝚜 𝚞𝚝𝚒𝚕𝚒𝚣𝚒𝚗𝚐 𝙰𝚗𝚍𝚛𝚘𝚒𝚍 𝙸𝚗𝚝𝚎𝚛𝚏𝚊𝚌𝚎 𝙳𝚎𝚏𝚒𝚗𝚒𝚝𝚒𝚘𝚗 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎 (𝙰𝙸𝙳𝙻) 𝚊𝚗𝚍 𝚒𝚗𝚌𝚕𝚞𝚍𝚎𝚜 𝚌𝚘𝚖𝚙𝚛𝚎𝚑𝚎𝚗𝚜𝚒𝚟𝚎 𝚌𝚘𝚗𝚝𝚎𝚗𝚝 𝚌𝚘𝚟𝚎𝚛𝚒𝚗𝚐 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚊𝚗𝚍 𝚝𝚘𝚙𝚒𝚌𝚜 𝚛𝚎𝚕𝚊𝚝𝚎𝚍 𝚝𝚘 𝙰𝙸𝙳𝙻 𝚒𝚗 𝙰𝚗𝚍𝚛𝚘𝚒𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝.
 
 ## `𝙲𝚘𝚗𝚝𝚎𝚗𝚝𝚜`
-* [`About AIDL`](https://github.com/devrath/AIDL-Alchemy/wiki/What-is-AIDL)
+* [`About AIDL`]([https://github.com/devrath/AIDL-Alchemy/wiki/What-is-AIDL](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#about-aidl))
 * [`How to run the sample application`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#%F0%9D%99%B7%F0%9D%9A%98%F0%9D%9A%A0-%F0%9D%9A%9D%F0%9D%9A%98-%F0%9D%9A%9B%F0%9D%9A%9E%F0%9D%9A%97-%F0%9D%9A%9D%F0%9D%9A%91%F0%9D%9A%8E-%F0%9D%9A%9C%F0%9D%9A%8A%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%95%F0%9D%9A%8E-%F0%9D%9A%8A%F0%9D%9A%99%F0%9D%9A%99%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%8C%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-)
 
 
@@ -33,7 +33,7 @@
 * `Generic maps`, such as `Map<String,Integer>` are not supported.
 
 
-## **`𝙷𝚘𝚠 𝚝𝚘 𝚛𝚞𝚗 𝚝𝚑𝚎 𝚜𝚊𝚖𝚙𝚕𝚎 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗`** 👣
+## **`How to run sample application`** 👣
 * There are two applications in the repository. One is for `server` and another for `client`
 * Server consists of a `service` and does not contain any activity, client contains an `activity` that contains a button to initiate data retrieval from the server application.
 * Install the server App and install the client app also.
