@@ -9,7 +9,7 @@
 | **`𝙲𝚘𝚗𝚝𝚎𝚗𝚝𝚜`** |
 | ---------- |
 | [`About AIDL`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#about-aidl) |
-| [`How communication occurs in the sample`]() |
+| [`How communication occurs in the sample`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#how-communication-occurs-in-the-sample) |
 | [`How to run the sample application`](https://github.com/devrath/AIDL-Alchemy/blob/main/README.md#how-to-run-sample-application-) |
 
 </div>
