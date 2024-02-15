@@ -4,11 +4,15 @@
 
 🗄️ 𝚃𝚑𝚒𝚜 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚢 𝚐𝚞𝚒𝚍𝚎𝚜 𝚞𝚝𝚒𝚕𝚒𝚣𝚒𝚗𝚐 𝙰𝚗𝚍𝚛𝚘𝚒𝚍 𝙸𝚗𝚝𝚎𝚛𝚏𝚊𝚌𝚎 𝙳𝚎𝚏𝚒𝚗𝚒𝚝𝚒𝚘𝚗 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎 (𝙰𝙸𝙳𝙻) 𝚊𝚗𝚍 𝚒𝚗𝚌𝚕𝚞𝚍𝚎𝚜 𝚌𝚘𝚖𝚙𝚛𝚎𝚑𝚎𝚗𝚜𝚒𝚟𝚎 𝚌𝚘𝚗𝚝𝚎𝚗𝚝 𝚌𝚘𝚟𝚎𝚛𝚒𝚗𝚐 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚊𝚗𝚍 𝚝𝚘𝚙𝚒𝚌𝚜 𝚛𝚎𝚕𝚊𝚝𝚎𝚍 𝚝𝚘 𝙰𝙸𝙳𝙻 𝚒𝚗 𝙰𝚗𝚍𝚛𝚘𝚒𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝.
 
-## `Contents`
+## `𝙲𝚘𝚗𝚝𝚎𝚗𝚝𝚜`
 * [`What is AIDL`](https://github.com/devrath/AIDL-Alchemy/wiki/What-is-AIDL)
 
 
-
+## **`𝙷𝚘𝚠 𝚝𝚘 𝚛𝚞𝚗 𝚝𝚑𝚎 𝚜𝚊𝚖𝚙𝚕𝚎 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗`** 👣
+* There are two applications in the repository. One is for `server` and another for `client`
+* Server consists of a `service` and does not contain any activity, client contains an `activity` that contains a button to initiate data retrieval from the server application.
+* Install the server App and install the client app also.
+* Now click the specific buttons on the client to retrieve specific data from the server. 
 
 ## **`𝚂𝚞𝚙𝚙𝚘𝚛𝚝`** ☕
 𝙸𝚏 𝚢𝚘𝚞 𝚏𝚎𝚎𝚕 𝚕𝚒𝚔𝚎 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚖𝚎 𝚊 𝚌𝚘𝚏𝚏𝚎𝚎 𝚏𝚘𝚛 𝚖𝚢 𝚎𝚏𝚏𝚘𝚛𝚝𝚜, 𝙸 𝚠𝚘𝚞𝚕𝚍 𝚐𝚛𝚎𝚊𝚝𝚕𝚢 𝚊𝚙𝚙𝚛𝚎𝚌𝚒𝚊𝚝𝚎 𝚒𝚝.</br>
